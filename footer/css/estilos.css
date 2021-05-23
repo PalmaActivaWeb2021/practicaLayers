@@ -1,0 +1,45 @@
+.footer{
+    bottom: 0;
+    background: #2385E0;
+    color: #fff;
+    width: 98%;
+    position:absolute;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+       
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer__nav a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 15px;
+    
+}
+
+.footer__acerca{
+    flex-grow: 0.4 ;
+}
+
+.footer__terminos{
+    
+    flex-grow: 0.2;
+    
+}
+
+.footer h3{ 
+    text-align: center;
+    margin-bottom: 0;
+}
